@@ -24,7 +24,7 @@ const BOUNCE_OFFSET_4 = 0.984375;
 
 export const linear = t => t;
 
-// Sine functions
+// Sinusoidal functions
 
 export const inSine = t => 1 - Math.cos(t * PI_OVER_TWO);
 

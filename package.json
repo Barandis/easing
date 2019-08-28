@@ -1,5 +1,5 @@
 {
-  "name": "kitty-hawk",
+  "name": "@barandis/easing",
   "version": "0.1.0",
   "description": "Time-dependent easing functions",
   "main": "dist/index.js",
