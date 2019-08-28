@@ -2,26 +2,6 @@
 //
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// easing.js
-//
-// Time-dependent easing functions.
-//
-// These were primarily derived from the original jquery.easing.js plugin for jQuery, which can be found at
-//
-// http://gsgd.co.uk/sandbox/jquery/easing/
-//
-// However, the easing functions in that plugin were defined in terms of the current time, the duration of the
-// animation, and the starting and ending values for the term being animated. (There was another parameter, `x`,
-// which was always unused but I presume was necessary for compatibility with jQuery.) They not only calculated the
-// easing but also handled the scaling in time and value, as jQuery required. However, this made their signatures
-// unwieldy and made the functions themselves rather complex.
-//
-// This library defines all of the same easing functions (plus a couple more) in terms of current time only. They
-// assume that the provided time will be between 0 and 1 inclusive, and the output will have a starting value of 0 and
-// and ending value of 1. The functions are therefore simpler and cleaner. They also do only one thing - easing - and
-// leave the necessary scaling to the user.
 //
 
 const TWO_PI = 2 * Math.PI;
