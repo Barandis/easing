@@ -166,7 +166,3 @@ export const bounceOut = t => {
 export const bounceIn = t => 1 - bounceOut(1 - t);
 
 export const bounceInOut = t => (t < 0.5 ? bounceIn(2 * t) / 2 : bounceOut(2 * t - 1) / 2 + 0.5);
-
-// Compatibility
-
-export const jquerify = fn => (x, t, b, c, d) => b + fn(t / d) * (c - b);
